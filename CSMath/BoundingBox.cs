@@ -73,6 +73,8 @@ namespace CSMath
 				case BoundingBoxExtent.Finite:
 				case BoundingBoxExtent.Point:
 				default:
+					this.Min = new XYZ();
+					this.Max = new XYZ();
 					break;
 			}
 		}
